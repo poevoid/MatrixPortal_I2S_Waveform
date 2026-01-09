@@ -1,2 +1,2 @@
 # MatrixPortal_I2S_Waveform
-Two Arduino sketches that work in tandem on different microcontrollers to display a waveform on a 64x32 RGB matrix.
+Two Arduino sketches that work in tandem on different microcontrollers to display a waveform on a 64x32 RGB matrix. Uses an ESP32 to interface with an I2S mic (INMP441) and output the audio stream through the board's 8-bit DAC on IO26, which goes to the Adafruit Matrix Portal M4's A2 pin. The Matrix Portal does some processing of the signal and displays the waveform on the 64x32 RGB matrix. Waveform is displayed as a scrolling/moving rainbow line.  
